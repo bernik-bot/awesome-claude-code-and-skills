@@ -2044,6 +2044,13 @@ Utilities and tools to enhance your Claude workflow.
   - 81 languages and 87 framework integrations; runs entirely local, no API key
   - Median 90.6% fewer input tokens to assemble PR-review context, measured over 60 merged PRs in 6 repos that are not ours ([method](https://trace-mcp.com/pr-context-benchmark.html))
   - TypeScript, MIT licensed
+
+- [bernik-bot/ichi-mcp](https://github.com/bernik-bot/ichi-mcp) ![Stars](https://img.shields.io/github/stars/bernik-bot/ichi-mcp?style=flat-square)
+  - Internet Cyber Health Index MCP server — daily internet-wide threat barometer via [ichi.global](https://ichi.global)
+  - Three tools: `get_current_index` (score + threat band), `get_recent_alerts` (critical vulnerability advisories), `get_source_health` (source feed status)
+  - Keyless public API; no account required; run with `uvx --from git+https://github.com/bernik-bot/ichi-mcp ichi-mcp`
+  - Five-band scale (NORMAL → GUARDED → ELEVATED → HIGH → CRITICAL); Python, MIT licensed; maintained for ICHI's creator
+
 ### API & Integration Tools
 
 - [router-for-me/CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI) ![Stars](https://img.shields.io/github/stars/router-for-me/CLIProxyAPI?style=flat-square)
